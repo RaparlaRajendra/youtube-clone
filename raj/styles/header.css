@@ -1,0 +1,84 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+    margin-bottom: 30px;
+}
+.left-section{
+    display: flex;
+
+}
+.menu,.logo{
+    height: 24px;
+}
+.menu{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+   
+}
+.search-box{
+    height: 24px;
+    vertical-align: top;
+    display: felx;
+    flex: 1;
+    width: 0px;
+    min-width: 20px;
+
+}
+.find,.mic{
+    height: 24px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+.bt1{
+    margin-left: -5px;
+}
+.bt2{
+    margin-left: 10px;
+    border-radius: 50%;
+    border: none;
+}
+.right-section{
+    /* background-color: lightblue; */
+    width: 200px;
+    display: flex;
+   
+    align-items: center;
+   justify-content: space-between;
+ flex-shrink: 0;   
+}
+.upload,.dots,.notlo,.chan{
+    height: 30px;
+    width: 30px;
+}
+.noti{
+    position: relative;
+}
+.no{
+    position: absolute;
+    background-color: red;
+    top: 0px;
+    right: 0px;
+    height: 15px;
+    width: 15px;
+    font-size: 13px;
+    border-radius: 15px;
+    color: white;
+
+}
